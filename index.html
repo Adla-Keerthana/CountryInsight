@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"> 
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NATION BASICS</title>
+</head>
+<body>
+    <div class="container">
+        <!--script-->
+        <script src="script.js"></script>
+        
+    </div>
+<div class="main" >
+   <video autoplay muted loop id="myVideo">
+        <source src="vid.mp4" type="video/mp4">
+      </video>
+    <div class="navbar">
+        <div class="icon">
+            <h2>NATION INFO</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="names.html">COUNTRY NAMES</a></li>
+                <li><a href="#">WORLD MAP</a></li>
+                <li><a href="#">HELP</a></li>
+                
+            </ul>
+        </div>
+        <div class="search">
+            <input class="srch" type="search" id="searchInput" placeholder="Enter a Country Name"></input>
+            <button class="mybutton" id="btn" onclick="myfunction()">Search</button>
+        </div>
+        
+    </div>
+    <div class="buttons">
+        <ul>
+        <li><a href="#"><button id="mybuttons" class="India" onclick="btn1func(`India`)">India</button></a></li>
+        <li><a href="#"><button id="mybuttons" class="UnitedStates"  onclick="btn1func(`United States`)">United States</button></a></li>
+       <li> <a href="#"><button id="mybuttons" class="Canada"  onclick="btn1func(`Canada`)">Canada</button></a></li>
+         <li><a href="#"><button id="mybuttons" class="Australia"  onclick="btn1func(`Australia`)">Australia</button></a></li>
+        <li><a href="#"><button id="mybuttons" class="China"  onclick="btn1func(`China`)">China</button></a></li>
+         <li><a href="#"><button id="mybuttons" class="Russia"  onclick="btn1func(`Russia`)">Russia</button></a></li>
+         <li><a href="#"><button id="mybuttons" class="Mexico"  onclick="btn1func(`Mexico`)">Mexico</button></a></li>
+         <li><a href="#"><button id="mybuttons" class="Japan"  onclick="btn1func(`Japan`)">Japan</button></a></li>
+         <li><a href="#"><button id="mybuttons" class="Brazil"  onclick="btn1func(`Brazil`)">Brazil</button></a></li>
+         </ul>
+         </div>
+         <div class="infocontainer" id="result">
+            <h2>Search for any countries info</h2>
+           
+            </div>
+         
+   </div>
+
+</body>

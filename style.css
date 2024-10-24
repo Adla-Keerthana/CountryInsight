@@ -1,0 +1,327 @@
+
+*{
+    margin:auto;
+    padding:0;
+    
+    
+    
+}
+.main{
+    height:fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 1;
+/*
+     background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-attachment:auto;
+    background-repeat: no-repeat;
+    */
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+.navbar{
+    width:200%;
+    height:75px;
+    margin:auto;
+    z-index: 1;
+
+}
+.icon h2{
+    display: inline;
+    width: 100px;
+    float:left ;
+    height: 60px;
+    position: relative;
+    color:white;
+    font-size:28px;
+    font-family:Arial;
+    padding-left: 20px;
+  cursor: pointer;
+    padding-top:10px;
+    z-index: 1;
+    text-align: center;
+
+}
+
+.menu{
+    width: 500px;
+    float:left;
+    height: 500px;
+    padding-left: 70px;
+    z-index: 1;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+ul li{
+    list-style: none;
+    margin-left: 52px;
+    margin-top: 27px;
+    font-size: 14px;
+    z-index: 1;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+    font-weight:bold;
+    transition:0.1s ease-in-out;
+    z-index: 1;
+
+
+}
+ul li a:hover{
+    color:orange;
+    z-index: 1;
+
+}
+.search{
+    width: 20px;
+    float:left;
+    margin-left:80px;
+    margin-right: 80px;
+    display:flex;
+    z-index: 1;
+
+}
+.srch{
+    font-family:'Times New Roman';
+    width: 130px;
+    height: 40px;
+    background:transparent;
+    border: 1px solid;
+    margin-top: 13px;
+    
+    color:white;
+    border-right: none;
+    font-size:12.05px;
+    float:left;
+    padding:15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    z-index: 1;
+
+
+}
+ .mybutton {
+   
+        width: 80px;
+        height: 40px;
+        border: 2px solid white;
+        background-color:white;
+        background-size: cover;
+        margin-top: 13px;
+        color: black;
+        font-size: 15px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+        z-index: 1;
+        display: inline-block;
+        text-align: center;
+        
+    }
+    .mybutton:hover{
+        background-color:blue;
+    }
+
+/*.mybutton:hover{
+    outline:none;
+    color:pink;
+    background-color: blue;
+    z-index: 1;
+
+
+}*/
+.srch:focus{
+    outline:none;
+    z-index: 1;
+
+}
+.buttons ul{
+       
+         position:absolute;
+         margin-left: 5px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 100px;
+        column-gap: 80px;
+        background-size: cover;
+    z-index: 1;
+
+}
+
+ul li button {
+    position: absolute;
+     width: 100px;
+     padding:15px 15px;
+     text-align: center;
+     margin:auto;
+     text-decoration: none;
+     font-family: Arial;
+     font-weight:bold;
+     margin-top: 10px;
+    z-index: 1;
+
+     
+ }
+.India{
+    height:100px;
+width:100px;
+background-image:url('https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFqJTIwbWFoYWx8ZW58MHx8MHx8fDA%3D');
+background-size: cover;
+background-color: transparent;
+border:2px solid white;
+text-align:top left;
+display:inline-block;
+text-align:top;
+
+}
+
+.UnitedStates{
+    height: 100px;
+    width: 100px;
+    background-image: url(https://media.istockphoto.com/id/525232662/photo/new-york-empire-state-building-and-statue-of-liberty.jpg?s=612x612&w=0&k=20&c=Ms_4rncOiyHJcXmLdFHw0RSBjbPhwvhz2gGJ4tEI25I=);
+    background-size: cover;
+    background-color: transparent;
+    border:2px solid white;
+}
+.Canada{
+    height:100px;
+    width:100px;
+    background-image:url('https://t4.ftcdn.net/jpg/00/35/44/37/360_F_35443759_uqs8cNExl9v0XdY48nzXj6BaguEUBPcv.jpg');
+    background-size: cover;
+    background-color: transparent;
+    border:2px solid white;
+}
+.Australia{
+    height:100px;
+    width:100px;
+    background-image:url('https://cdn.pixabay.com/photo/2017/11/02/10/31/sydney-2910646_1280.jpg');
+    background-size: cover;
+    background-color: transparent;
+    border:2px solid white;
+}
+.China{
+    height:100px;
+    width:100px;
+    background-image:url('https://www.planetware.com/wpimages/2020/01/china-in-pictures-beautiful-places-to-photograph-the-great-wall.jpg');
+    background-size: cover;
+    background-color: transparent;
+    border:2px solid white;
+}
+
+.Russia{
+    height:100px;
+    width:100px;
+    background-image:url('https://media.istockphoto.com/id/621235832/photo/autumn-morning-at-the-cathedral.jpg?s=612x612&w=0&k=20&c=5ALajgxiRg5xdhsvpnJ9QkjHPSFOuWgDb0jDPqduenM=');
+    background-size: cover;
+    background-color: transparent;
+    border:2px solid white;
+}
+.Mexico{
+    height:100px;
+    width:100px;
+    background-image:url('https://www.planetware.com/wpimages/2019/09/mexico-in-pictures-most-beautiful-places-to-visit-mexico-city.jpg');
+    background-size: cover;
+    background-color: transparent;
+    border:2px solid white;
+}
+.Japan{
+    height:100px;
+    width:100px;
+    background-image:url('https://img.traveltriangle.com/blog/wp-content/uploads/2018/02/places-to-visit-in-Japan1.jpg');
+    background-size: cover;
+    background-color: transparent;
+    border:2px solid white;
+}
+.Brazil{
+    height:100px;
+    width:100px;
+    background-image:url('https://www.researchgate.net/publication/262177463/figure/fig3/AS:296916664504331@1447801858038/The-famous-Rio-Niteroi-bridge-in-Brazil-across-the-Guanabra-Bay.png');
+    background-size: cover;
+    background-color: transparent;
+    border:2px solid white;
+}
+
+   
+
+.infocontainer{
+    background-image: url('https://cdn.wallpapersafari.com/48/66/gEqyGj.jpg');
+    
+     display:flex;
+     background-position: 100% 0;
+     background-size:50%;
+    width:350px;
+    position: absolute;
+ top: 70px;
+ left: 50%; 
+ width: 43%; 
+    height:428px;
+    z-index: 1;
+   
+}
+#result{
+    background-image: url('https://cdn.wallpapersafari.com/48/66/gEqyGj.jpg');
+    display:block;
+    background-position: 100% 0;
+    background-size:50%;
+   width:350px;
+   position: absolute;
+top: 70px;
+left: 50%; 
+width: 43%; 
+   height:428px;
+   z-index: 1;
+    
+   
+}
+.infocontainer .flag-img {
+    margin-top: 5px;
+    display: block;
+    height: 100px;
+    width:150px;
+    z-index: 1 ;
+  }
+  
+  .infocontainer h2 {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8em;
+  }
+  .data-wrapper {
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+  }
+  .infocontainer h4 {
+    display: inline;
+    font-weight: bold;
+    color:black;
+  }
+  .infocontainer span {
+    color: black;
+  }
+  .infocontainer h3 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+  }
+  .infocontainer h2{
+    color: black;
+  }
